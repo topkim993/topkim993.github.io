@@ -1,4 +1,5 @@
 ---
+layout: single
 title: "[XCode] xcframework 생성"
 ---
 

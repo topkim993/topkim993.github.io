@@ -1,0 +1,44 @@
+/* 본인 블로그 스타일에 맞춰 수정하여 사용하세요. */
+.copy-code-button {
+  /* 복사 버튼 색상  */
+  color: #272822;
+  /* 복사 버튼 배경 색상 */
+  background-color: rgb(212, 214, 140);
+  /* 복사버튼 경계 색상 */
+  border-color: #272822;
+  border: 2px solid;
+  border-radius: 3px 3px 0px 0px;
+
+  /* 아래 세 줄은 복사 버튼 오른쪽 정렬 */
+  display: block;
+  margin-left: auto;
+  margin-right: 0;
+
+  /* 바로 위 글씨와 복사 버튼 사이의 간격 */
+  margin-top: -30px;
+  margin-bottom: -2px;
+  padding: 3px 8px;
+  font-size: 0.8em;
+  
+  position: relative;
+  /* 아래 값을 적절히 변경하면 위 아래로 복사버튼 이동 */
+  bottom: -24px;
+}
+
+.copy-code-button:hover {
+  cursor: pointer;
+  background-color: #e5e548;
+}
+
+.copy-code-button:focus {
+  background-color: rgb(253, 139, 194);
+  outline: 0;
+}
+
+.copy-code-button:active {
+  background-color: rgb(212, 214, 140);
+}
+
+.highlight pre {
+  margin: 0;
+}

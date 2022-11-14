@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: post
 title: "[XCode] xcframework 생성"
 ---
 

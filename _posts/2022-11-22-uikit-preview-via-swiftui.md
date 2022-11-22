@@ -5,6 +5,7 @@ title: "UIKit Preview via SwiftUI"
 
 ### Step 1
 - 프리뷰를 보기 위한 준비
+
 ```
 #if canImport(SwiftUI) && DEBUG
 import SwiftUI
@@ -42,8 +43,11 @@ public struct UIViewControllerPreview<ViewController: UIViewController>: UIViewC
 }
 #endif
 ```
+
 ### Step 2
 - UIView 프리뷰
+
+
 ```
 #if DEBUG
 import SwiftUI
@@ -64,6 +68,7 @@ struct SampleButtonPreview: PreviewProvider {
 
 ### Step 3
 - UIViewController 프리뷰
+
 ```
 #if DEBUG
 import SwiftUI

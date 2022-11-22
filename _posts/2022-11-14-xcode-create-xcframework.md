@@ -3,14 +3,14 @@ layout: single
 title: "[XCode] xcframework 생성"
 ---
 
-Step 1
+## Step 1
 - 프로젝트 경로 이동
 
 ```
 cd path/to/Sample
 ```
 
-Step 2
+## Step 2
 - 아카이브
 
 ```
@@ -18,7 +18,7 @@ xcodebuild archive -scheme Sample -archivePath ./Builds/iOS.xcarchive -sdk iphon
 
 ```
 
-Step 3
+## Step 3
 - xcframework 변환
 
 ```

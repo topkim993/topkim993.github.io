@@ -3,7 +3,7 @@ layout: single
 title: "UIKit Preview via SwiftUI"
 ---
 
-### Step 1
+## Step 1
 - 프리뷰를 보기 위한 준비
 
 ```
@@ -44,7 +44,7 @@ public struct UIViewControllerPreview<ViewController: UIViewController>: UIViewC
 #endif
 ```
 
-### Step 2
+## Step 2
 - UIView 프리뷰
 
 
@@ -66,7 +66,7 @@ struct SampleButtonPreview: PreviewProvider {
 #endif
 ```
 
-### Step 3
+## Step 3
 - UIViewController 프리뷰
 
 ```

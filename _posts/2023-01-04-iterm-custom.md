@@ -2,6 +2,10 @@
 layout: single
 title: "Iterm 커스텀"
 ---
+
+![Jan-04-2023 13-20-11](https://user-images.githubusercontent.com/57055565/210484195-442efef3-d1b2-4925-843d-7b23f800afa0.gif)
+
+
 ### Oh my zsh 설치
 ```
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"

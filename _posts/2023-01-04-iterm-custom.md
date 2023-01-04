@@ -2,7 +2,7 @@
 layout: single
 title: "Iterm 커스텀"
 ---
-
+{% raw %}
 ![Jan-04-2023 13-20-11](https://user-images.githubusercontent.com/57055565/210484195-442efef3-d1b2-4925-843d-7b23f800afa0.gif)
 
 
@@ -57,3 +57,5 @@ https://github.com/powerline/fonts/blob/master/SourceCodePro/Source%20Code%20Pro
 ```
 
 - iterm2 - setting - profile에서 폰트 및 컬러 변경
+
+{% endraw %}

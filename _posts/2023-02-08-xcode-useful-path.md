@@ -12,3 +12,8 @@ title: "[XCode] 유용한 경로 모음"
 ```
 ~/Library/Developer/Xcode/DerivedData
 ```
+
+## Xcode Templates
+```
+~/Library/Developer/Xcode/Templates/File
+```
